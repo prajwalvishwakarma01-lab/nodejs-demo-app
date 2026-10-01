@@ -2,10 +2,10 @@ name: First GitHub Action
 on:
   push:
     branches:
-      - main
+      - Main
 jobs:
     hello:
      runs-on: ubuntu-latest
      steps:
         - name: Print Message
-          run: echo "My first GitHub Action is running!"
+          run: echo "My first GitHub Action is running!"    
